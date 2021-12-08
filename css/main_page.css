@@ -176,28 +176,27 @@ a{
 }
 #parade .tab{
     position: relative; 
-    padding: 40px 0; 
+    padding: 20px 0; 
     text-align: center;
 }
 #parade .tab>li{
     display: inline-block;
     margin: -12px 20px; 
-    padding: 0 30px; 
+    padding: 0 20px; 
     background-color: #fff; 
-    border: 1px solid #2e2624; 
-    border-radius: 10px;
+    border: 1px solid #2e2624;
 }
 #parade .tab>li>.menu{
-    display: block; 
+    display: block;
+    height: 30px;
     padding: 0 20px; 
-    font: 24px/50px 'inherit'; 
-    line-height: 50px;
+    font: 15px/30px 'inherit'; 
+    line-height: 31px;
     color: #767676;
 }
 #parade .tab>li>.pannel{
     position: absolute; left: 100px; top: 100px; 
     width: 1000px; height: 550px; 
-    border: 1px solid #ddd;
 }
 #parade .tab>li:nth-of-type(1)>.pannel{
     background:url('../img/panner2.jpeg') no-repeat;
@@ -212,7 +211,7 @@ a{
 #theme{
     background-repeat: no-repeat;
     background : #fff;
-    height: 900px;
+    height: 800px;
 }
 #theme .title{
     font: 30px '맑은고딕'; 
@@ -237,13 +236,13 @@ a{
     display: inline-block; 
     margin: -12px 20px; 
     padding: 0px 20px; 
-    border: 2px solid #2e2624; 
+    border: 1px solid #2e2624; 
     color: #2c2c2c;
 }
 #theme .tab_1>li>a{
     display: block; 
     padding: 0 30px;
-    font: bold 18px/50px 'inherit'; 
+    font: 18px/50px 'inherit'; 
     color: #2e2624;
 }
 #theme .tab_1>li>.panel{
@@ -297,11 +296,24 @@ a{
     background-color: #fff;
 }
 #cardnews .title{
+    font: 30px '맑은고딕'; 
+    text-align: center; 
+    color: #2e2624; 
+    padding: 10px 0;
+}
+#cardnews .sub_title{
+    font: bold 15px '맑은고딕'; 
+    text-align: center; 
+    color: #CA4444; 
+    padding: 10px 0;
+}
+/*#cardnews .title{
     margin: 20px 0 25px;
     font: bold 35px '맑은고딕'; 
     text-align: center; 
     color: #4a4a4a;
 }
+*/
 #cardnews .txt{font: 20px '맑은고딕'; text-align: center; padding: 10px 0; color: #5a5a5a}
 #cardnews .box{position: relative; float: left; width: 376px; margin-right: 24px;}
 #cardnews .box:last-of-type{margin-right: 0;}
@@ -319,21 +331,26 @@ a{
     color: #2e2624;
 }
 
-#cardnews .box .info p{opacity: 0; transition: 1s; margin: 15px 0;}
+#cardnews .box .info p{
+    opacity: 0;
+    transition: 1s;
+    margin: 15px 0;
+    padding: 20px;
+}
 
 #cardnews .box .info .btn{
     
     position: relative; display: inline-block;
-    width: 150px; height: 45px; margin: 80px 0 0 0; 
+    width: 150px; height: 45px; margin: 10px 0 0 0; 
     font: bold 16px/40px '맑은 고딕'; text-align: center; color: #ffffff;
-    border: 0.5px solid #afafaf; border-radius: 10px;
+    border: 2px solid #2e2624; border-radius: 10px;
     overflow: hidden; 
 }
 
 #cardnews .box .info .btn span{position: relative; z-index: 1;}
 #cardnews .box .info .btn::after{content: ''; display: block;
     position: absolute; left: 0; top: 0; z-index: 0;
-    width: 100%; height: 0%; background: rgba(255, 221, 128, 0.8); transition: 0.3s
+    width: 100%; height: 0%; background: #2e2624; transition: 0.3s
 }
 
 #cardnews .box .info .btn:hover{color: #fff}

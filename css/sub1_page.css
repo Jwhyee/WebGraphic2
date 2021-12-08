@@ -132,10 +132,8 @@ a{
 #visual{
     width: 100%;
     height: 340px;
-    background-size:100%;
-    background-repeat: no-repeat;
     padding : 185px 0 0 ;
-    background : url(../img/keyimage2.jpg);
+    background : url(../img/keyimage5.jpeg) no-repeat 30% 45%;
 
 }
 #visual #v_main{
@@ -232,10 +230,11 @@ a{
     text-align: center;
     color: #ffffff;
     transition: 0.3s;
+    padding: 10px;
 }
 #cardnews .box .info strong{
     display: block; 
-    margin-top: 200px; 
+    margin-top: 185px; 
     font: bold 42px '맑은 고딕';
     color: #2e2624;
 }
