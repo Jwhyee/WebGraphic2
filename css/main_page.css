@@ -241,8 +241,10 @@ a{
 }
 #theme .tab_1>li>a{
     display: block; 
-    padding: 0 30px;
-    font: 18px/50px 'inherit'; 
+    height: 30px;
+    padding: 0 20px; 
+    font: 15px/30px 'inherit'; 
+    line-height: 31px;
     color: #2e2624;
 }
 #theme .tab_1>li>.panel{
@@ -370,27 +372,65 @@ a{
 #footer{
     width: 100%;
     height: 200px;
+    text-align: center;
     background-color: rgba(44, 44, 44, 0.8);
 }
-#footer .inner{width: 1180px; margin: 0 auto}
-#footer .inner::after{content: ''; display: block; clear: both;}
+#footer .inner{
+    width: 1180px;
+    margin: 0 auto;
+}   
+#footer .inner::after{
+    content: '';
+    display: block; clear: both;}
 
 
-#footer .box.logo{}
-#footer .box.logo .logo_footer{margin-right:15px;}
 
 #footer .box{float: left; padding: 30px; height: 200px;}
 
-#footer .box.contact{width: 50%; padding: 30px 45px; text-align: left;}
-#footer .box.contact p{margin: 10px 0; text-indent: -20px;}
-#footer .box.contact p i{font-size: 20px; color: #ffffff; padding-right: 25px;}
-#footer .box.contact p span{font-size: 20px; color: #ffffff}
+#footer .box.contact{
+    width: 50%; 
+    padding: 30px 45px; 
+    text-align: left;
+}
+#footer .box.contact p{
+    margin: 10px 0; 
+    text-indent: -20px;
+}
+#footer .box.contact p i{
+    font-size: 20px;
+    color: #ffffff;
+    padding-right: 25px;
+}
+#footer .box.contact p span{
+    font-size: 20px;
+    color: #ffffff;
+}
 
 
-#footer .box.sns{width: 25%; height: 50px;}
-#footer .box.sns .sns{margin-top: 10px; padding: 55px 0 50px; font-size: 35px; float: right;}
-#footer .box.sns .sns li{ display: inline-block; padding: 0 3px;}
-#footer .box.sns .sns li a{color: #ffffff}
+#footer .box.sns{
+    width: 25%; 
+    height: 50px;
+}
+#footer .box.sns .sns{
+    margin-top: 10px; 
+    padding: 55px 0 50px; 
+    font-size: 35px; 
+    float: right;
+}
+#footer .box.sns .sns li{
+    display: inline-block;
+    padding: 0 3px;
+}
+#footer .box.sns .sns li a{
+    color: #ffffff
+}
 
-
+#footer .outer{
+    height: 70px;
+    line-height: 70px;
+    background-color: black;
+    font-size: 20px;
+    color : white;
+    text-align : center;
+}
 
